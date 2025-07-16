@@ -6,9 +6,20 @@
         "wdth" 100;
 }
 
+/* body {
+    background-color: #F3F3F3;
+
+} */
+
 /* shared style */
 .text-primary {
-    color: #FD6E0A;
+    color: #757575;
+    font-size: 16px;
+}
+
+.text-small {
+    color: #757575;
+    font-size: small;
 }
 
 .dark-1 {
@@ -33,11 +44,6 @@
     font-size: 16px;
     font-weight: bold;
     color: #181818;
-}
-
-.text-primary {
-    font-size: small;
-    color: #757575;
 }
 
 .btn-primary {
@@ -83,6 +89,7 @@ nav ul {
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+    background-color: #FFF8F3
 }
 
 /* Banner styles */
@@ -142,4 +149,26 @@ main {
 .about-pera {
     margin-top: 80px;
     margin-bottom: 0;
+}
+
+/* what i do section */
+.what-i-do-container {
+    margin-bottom: 100px;
+}
+
+.what-content {
+    text-align: center;
+    padding: 50px 115px;
+}
+
+.what-items {
+    display: flex;
+    gap: 50px;
+}
+
+.what-item {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 20px 20px lightblue;
 }
