@@ -55,18 +55,30 @@
     border-radius: 5px;
     border: none;
 }
+.btn-primary:hover{
+    background-color: lightgreen;
+   color: black;
+}
+
+/* header developer img set */
+.header {
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-color: #FFF8F3
+}
 
 /* Nav styles */
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 200px;
+    margin: 0 150px;
 }
 
 .nav-title {
     font-weight: 800;
-    font-size: 45px;
+    font-size: 40px;
 }
 
 nav ul li {
@@ -83,24 +95,21 @@ nav ul {
     display: flex;
     align-items: center;
 }
-
-/* header developer img set */
-.header {
-    background-image: url(../images/developer.png), url(../images/header_bg.png);
-    background-repeat: no-repeat;
-    background-position: top left, bottom right;
-    background-color: #FFF8F3
+.text-color{
+    color: #FD6E0A;
 }
+
 
 /* Banner styles */
 .banner {
     display: flex;
     justify-content: space-between;
-    margin: 0 35px 0 200px;
+    margin: 0 35px 0 150px;
 }
 
 .banner-content {
     max-width: 585px;
+    
 }
 
 .banner-greetings {
@@ -174,36 +183,72 @@ main {
 }
 
 /* Summary section */
-.summary-center{
+.summary-center {
     display: flex;
     justify-content: center;
     margin: 70px 0;
 }
-.btn-center{
+
+.btn-center {
     display: block;
     margin: 80px auto;
 }
-.summary-item-container{
+
+.summary-item-container {
     display: flex;
     gap: 70px;
 }
-.summary-edu-exp{
+
+.summary-edu-exp {
     font-size: 28px;
     font-weight: bold;
     color: #2d2c2c;
 }
-.summary-heading{
+
+.summary-heading {
     font-size: 24px;
     font-weight: bold;
     color: #4b4a4a;
     margin-bottom: 10px;
 }
-.summary-title{
+
+.summary-title {
     font-size: 18px;
     font-weight: 600;
     color: #757575;
     margin-top: 0;
 }
-.line-break{
+
+.line-break {
     margin-top: 30px;
+}
+
+/* Footer section */
+footer {
+    background-color: #FFF8F3;
+}
+
+.foot-container {
+    display: flex;
+    max-width: 1140px;
+    padding: 100px 0;
+    margin: 0 auto;
+    gap: 100px;
+}
+.padding{
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color:#ffffff;
+}
+.inpt-btn{
+    display: block;
+    width: 100%;
+    box-shadow: 10px 10px 10px lightblue;
+}
+.footer-link{
+    display: flex;
+    justify-content: baseline;
+    gap: 40px;
+    
 }
